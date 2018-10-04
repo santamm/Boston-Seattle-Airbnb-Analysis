@@ -17,13 +17,27 @@ The following additional libraries have been used:
 - nltk for the Vader Sentiment Analyzer. The Vader lexicon has been downloaded nltk.downloader.download('vader_lexicon')
 
 ## Project Motivation<a name="motivation"></a>
+In this project we analyze data from Airbnb listings for Seattle and Boston in 2016 and 2017. The methodology followed is CRISP-DM.
+The questions we are trying to answer in this project are the following:
+- Which features in the listings affect the price the most? which ones are more important in driving the price up?
+- How does the rates between the two cities compare? Can we spot patterns in the seasonal or weekly data?
+- Can we find a way to classify negative and positive reviews based on text?
 
-
+The data has been made available by Airbnb inside, and the original source can be found [here](http://insideairbnb.com/get-the-data.html)
 
 ## File Descriptions <a name="files"></a>
-
+The Jupyter notebooks included in this project are:
+- Prices and Trends.ipynb, with the code for comparing rates between the two cities and spot patterns in the seasonal or weekly data
+- Reviews Sentiment Analysis.ipynb, with the code to analyze the text reviews
+- Price Prediction Analysis.ipynb, the code include a linear regression model to predict price and find what features affect the prices the most
 
 ## Results<a name="results"></a>
+The following results are showed in the notebooks:
+- Which features in the listings affect the price the most? which ones are more important in driving the price up?
+
+- How does the rates between the two cities compare? Can we spot patterns in the seasonal or weekly data?
+
+- Can we find a way to classify negative and positive reviews based on text?
 
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
@@ -33,5 +47,5 @@ Analysis of Social Media Text", available [here](http://comp.social.gatech.edu/p
 Langdetect is a port of Google’s [language-detection](https://code.google.com/p/language-detection/) library (version from 03/03/2014) to Python.
 It supports 55 languages out of the box  
 
-The data is part of Airbnb Inside, license is from the Kaggle pages for [Seattle](https://www.kaggle.com/airbnb/seattle) and [Boston](https://www.kaggle.com/airbnb/boston)
+The data is part of Airbnb Inside, license is from the Kaggle pages for [Seattle](https://www.kaggle.com/airbnb/seattle) and [Boston](https://www.kaggle.com/airbnb/boston).
 
