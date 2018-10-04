@@ -34,11 +34,14 @@ The Jupyter notebooks included in this project are:
 ## Results<a name="results"></a>
 The following results are showed in the notebooks:
 - Which features in the listings affect the price the most? which ones are more important in driving the price up?
-
+  Neighborhoods are the most important predictors (as expected), affecting price between trendy suburbs (+68 usd) to bad ones (-67 usd). Staying in a dorm or sharing a room gives good savings, while choosing a loft comes at a premium. Additional bedrooms and bathrooms will cost you 31 usd and 22 usd respectevely, not as much as expected, but understandable considering these are not hotel rooms but privately rented apartments. The patters are similar for Boston and Seattle. Other predictors like amenities offered in the apartments also influence price, but on a much smaller scale.
 - How does the rates between the two cities compare? Can we spot patterns in the seasonal or weekly data?
+Boston is basically more expensive than Seattle, as the average price in Seattle is 137 dollars, while the average price in boston is 201 dollars. Prices in both cities are rising from February to August and falling from September to February. Prices in Seattle are at least 30 usd more expensive per day in the busy July and August months. In Boston prices are lower than average from December to June and way above average in September and October.
+As for the weekly patterns, Thursdays and Fridays are more expensive compared to the rest of the week in both cities: in Seattle prices are around 143 usd in those dsys compared to an average of 135 on Sun, Mon, Tue and 136 on Wed and Sat. In Boston prices are 203 usd on average on thursdays and fridays compared to an average of 195 on Sun, Mon, Tue and 198 on Wed and Sat.So in the more expensive days in both cities prices are around 7-8 usd more than the less expensive ones.
 
 - Can we find a way to classify negative and positive reviews based on text?
-
+The Sentiment Analyser distributions show that most of the reviews are neutral (93%), negative sentiment is very low as the majority of comments have negativity index of less than 0.1 and only just over 6% of the reviews have a strong positive sentiment (>0.5) 
+and the majority (61%) are in the 0.2 - 0.4 range. So neutrality dominates.
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 The Vader Sentiment Analyzer is due C.J. Hutto and Eric Gilbert fro the paper "VADER: A Parsimonious Rule-based Model for Sentiment 
