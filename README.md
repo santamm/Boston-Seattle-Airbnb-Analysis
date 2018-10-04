@@ -27,9 +27,9 @@ The data has been made available by Airbnb inside, and the original source can b
 
 ## File Descriptions <a name="files"></a>
 The Jupyter notebooks included in this project are:
-- Prices and Trends.ipynb, with the code for comparing rates between the two cities and spot patterns in the seasonal or weekly data
-- Reviews Sentiment Analysis.ipynb, with the code to analyze the text reviews
-- Price Prediction Analysis.ipynb, the code include a linear regression model to predict price and find what features affect the prices the most
+- prices_and_trends.ipynb, with the code for comparing rates between the two cities and spot patterns in the seasonal or weekly data
+- reviews_sentiment_analysis.ipynb, with the code to analyze the text reviews
+- price_prediction_analysis.ipynb, the code include a linear regression model to predict price and find what features affect the prices the most
 
 ## Results<a name="results"></a>
 The following results are showed in the notebooks:
