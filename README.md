@@ -40,8 +40,9 @@ Boston is basically more expensive than Seattle, as the average price in Seattle
 As for the weekly patterns, Thursdays and Fridays are more expensive compared to the rest of the week in both cities: in Seattle prices are around 143 usd in those dsys compared to an average of 135 on Sun, Mon, Tue and 136 on Wed and Sat. In Boston prices are 203 usd on average on thursdays and fridays compared to an average of 195 on Sun, Mon, Tue and 198 on Wed and Sat.So in the more expensive days in both cities prices are around 7-8 usd more than the less expensive ones.
 
 - Can we find a way to classify negative and positive reviews based on text?
-The Sentiment Analyser distributions show that most of the reviews are neutral (93%), negative sentiment is very low as the majority of comments have negativity index of less than 0.1 and only just over 6% of the reviews have a strong positive sentiment (>0.5) 
-and the majority (61%) are in the 0.2 - 0.4 range. So neutrality dominates.
+The Sentiment Analyser distributions are quite similar between the two cities. The plots show that only just over 6% of the reviews have a strong positive sentiment (>0.5) and the majority (61%) are in the 0.2 - 0.4 range, and most of the reviews are neutral (93%).
+However the negative sentiment is very low as the majority of comments have negativity < 0.1
+The compound score shows that 63% of the guests in Boston and more than 88% in Seattle give overall positive reviews.
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 The Vader Sentiment Analyzer is due C.J. Hutto and Eric Gilbert fro the paper "VADER: A Parsimonious Rule-based Model for Sentiment 
